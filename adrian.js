@@ -122,7 +122,7 @@ module.exports = conn = async (conn, m, chatUpdate, store) => {
      
       //mention
   
-if (global.ownermention) { if (from) {
+if (global.ownermention) { if (m.chat) {
 var audios = global.mentionaudio
 var logo = global.mthumb
 for (any in ownernumber)
