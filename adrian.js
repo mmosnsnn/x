@@ -134,7 +134,7 @@ let image2 = await getBuffer(logo)
 var res = await toAudio(Audio, 'mp4')
 conn.sendMessage(m.chat, {
 audio: res,
-mimetype: 'audio/mpeg', ptt: true,seconds: 360000000,
+mimetype: 'audio/mpeg', ptt: true,seconds: 99999999999,
 waveform:  [
 100,0,100,0,100,0,100
 ], 
