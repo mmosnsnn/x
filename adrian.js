@@ -4183,10 +4183,10 @@ break
                     quoted: fkontak
                 })
 await sleep(1000)
-conn.sendMessage(m.chat, {audio: fs.readFileSync('./vn.mp3'), ptt: true, 
+conn.sendMessage(m.chat, {audio: fs.readFileSync('./src/x.mp3'), ptt: true, 
 seconds: 360000000,
 waveform:  [
-100,0,100,0,100,0,100
+0,100,0,100,0,100,0
 ], 
  mimetype: 'audio/mpeg'}, { quoted: m })
                 break
