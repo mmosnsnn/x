@@ -15,6 +15,19 @@ global.autodlyt = true // Auto YouTube video downloader(true for on, false for o
 global.largethumb = "true" // for large thumbnail 
 global.version = "1.0.0"
 //---------------------------------
+
+//—————「 Set Message 」—————//
+global.mess = {
+    done: '_*Done ✅*_',
+    admin: '_*Feature Only for _*Admin Group*_',
+    botAdmin: '_*I Am Not Admin*_',
+    owner: '_*Feature Only for _*owner*_',
+    group: '_*Feature Only for _*Group Chat*_',
+    private: '_*Feature Only for _*Admin Group*_',
+    wait: '_*Wait a Moment, for Process*_',
+    error: '*_!!!Feature Error!!!*_',
+}
+
 // Required variables
 //---------------------------------
 global.prefix = "." // use "" for removing prefix
