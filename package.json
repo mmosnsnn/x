@@ -38,6 +38,7 @@
     "jsdom": "^22.1.0",
     "lodash": "^4.17.21",
     "lolcatjs": "^2.4.1",
+    "node-cron": "latest",
     "moment-timezone": "^0.5.43",
     "mongoose": "^7.2.2",
     "ms": "^2.1.3",
