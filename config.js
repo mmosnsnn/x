@@ -40,7 +40,7 @@ global.limitawal = {
 
 //—————「 Set Image 」—————//
 global.imageurl = 'https://telegra.ph/file/c3b6882ed6aee6b409198.jpg'
-global.isLink = `https://youtube.com/@ManzBMTH`
+global.isLink = `https://chat.whatsapp.com/JjzEUDkJgke1vPGK3GAvG6`
 global.thumb = fs.readFileSync('./media/thumb.jpg')
 
 //—————「 Batas Akhir 」—————//
