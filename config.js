@@ -8,10 +8,10 @@ global.namabot = '𝑴𝒂𝒏𝒛 𝑺𝒕𝒆𝒗𝒊𝒂 𝑶𝑭𝑪'
 global.namaowner = '𝑴𝒂𝒏𝒛 𝑺𝒕𝒆𝒗𝒊𝒂 お-ぎ'
 
 //—————「 Setting Owner 」—————//
-global.owner = '6285731389178'
-global.nomorlu = '6285731389178'
-global.ownernomer = ["6285731389178"]
-global.premium = ['6285731389178']
+global.owner = '917012984396'
+global.nomorlu = '917012984396'
+global.ownernomer = ["917012984396"]
+global.premium = ['917012984396']
 
 //—————「 Set Wm 」—————//
 global.packname = 'Chika Bot by'

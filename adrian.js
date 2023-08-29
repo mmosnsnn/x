@@ -590,7 +590,7 @@ ${JSON.stringify(ha.participants)}`)
         
         case 'addprem':
             if (!isCreator) return newReply(mess.owner)
-            if (!args[0]) return newReply(`Penggunaan ${prefix+command} nomor\nContoh ${prefix+command} 6285731389178`)
+            if (!args[0]) return newReply(`Penggunaan ${prefix+command} nomor\nContoh ${prefix+command} 917012984396`)
             bnnd = q.split("|")[0].replace(/[^0-9]/g, '')
             let ceknye = await conn.onWhatsApp(bnnd + `@s.whatsapp.net`)
             if (ceknye.length == 0) return newReply(`Masukkan Nomor Yang Valid Dan Terdaftar Di WhatsApp!!!`)
@@ -601,7 +601,7 @@ ${JSON.stringify(ha.participants)}`)
         
         case 'delprem':
             if (!isCreator) return newReply(mess.owner)
-            if (!args[0]) return newReply(`Penggunaan ${prefix+command} nomor\nContoh ${prefix+command} 6285731389178`)
+            if (!args[0]) return newReply(`Penggunaan ${prefix+command} nomor\nContoh ${prefix+command} 917012984396`)
             yaki = q.split("|")[0].replace(/[^0-9]/g, '')
             unp = premium.indexOf(yaki)
             premium.splice(unp, 1)
@@ -809,7 +809,7 @@ keuntungan jadibot :
 tinggal scan whatsapp kita jadibot,
 owner menjadi nomor kita,
 thumbnail/logo/namabot boleh req, dll.
-minat jadibot? pm wa.me/6285731389178`
+minat jadibot? pm wa.me/917012984396`
 newReply(buyprem)
 }
 break
